@@ -1,0 +1,20 @@
+.ConferenceSearchParametersPanel{
+    padding: 0
+  }
+
+  .slider-audience{
+     width: 750px;
+     margin-left: 20px;
+     margin-top: 15px;;
+  }
+  
+  .text-align-center{
+     text-align: center
+  }
+
+  .date-pickers-container{
+     width: 700px;
+     display: flexbox;
+     flex-direction: row;
+     justify-content: space-around;
+  }

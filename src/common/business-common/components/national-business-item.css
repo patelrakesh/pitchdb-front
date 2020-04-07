@@ -1,0 +1,81 @@
+.BusinessItem .industry-text{
+  margin-bottom: 1rem;
+}
+
+ .BusinessItem .national-business-container{
+  display: grid;
+  grid-template-areas: "company contact"
+                        "actions actions";
+  grid-template-columns: 2fr 2fr;
+  /* Remove this line? */
+  /* grid-template-rows: 80% 20%; */
+  column-gap: 2em;
+  row-gap: 1em;
+
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ .BusinessItem .national-contacts{
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+}
+
+ .BusinessItem .national-contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+ .BusinessItem .national-company{
+  grid-area: company;
+  display: flex;
+  flex-direction: column;
+}
+
+.BusinessItem .national-company-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 5px;
+}
+
+.BusinessItem .national-logo{
+  padding-right: 20px;
+}
+
+ .BusinessItem .national-tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+ .BusinessItem .national-chip{
+   margin:0.2rem;
+  padding-right: 5px;
+}
+
+.BusinessItem .national-chip :hover{
+  cursor: default;
+}
+
+ .BusinessItem .national-field{
+  display: flex;
+  flex-direction: row;
+}
+
+ .BusinessItem .national-field .national-label{
+  padding-right: 5px;
+}
+
+ .BusinessItem .national-actions{
+  grid-area: actions;
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .BusinessItem .national-actions .action-button{
+  width: fit-content;
+}

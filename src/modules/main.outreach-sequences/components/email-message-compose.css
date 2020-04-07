@@ -1,0 +1,30 @@
+.edition-area {
+  margin-top: 1rem;
+  z-index: 200;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-top: 1px solid rgb(0, 26, 183);
+  padding-top: 1rem;
+}
+
+.edition-area .edition-item {
+  padding-top: 1rem;
+}
+
+.EmailMessageCompose {
+  padding: 1rem 0;
+  background-color: white;
+  width: 60rem;
+}
+
+@media screen and (max-width: 900px) {
+  .EmailMessageCompose {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .EmailMessageCompose {
+    width: 20rem;
+  }
+}

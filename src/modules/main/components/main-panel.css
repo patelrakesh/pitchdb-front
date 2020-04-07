@@ -1,0 +1,50 @@
+html {
+  overflow-y: scroll;
+}
+
+/* Change the white to any color ;) */
+.MainPanel input:-webkit-autofill,
+.MainPanel input:-webkit-autofill:hover,
+.MainPanel input:-webkit-autofill:focus,
+.MainPanel input:-webkit-autofill:active {
+  background-color: white !important;
+}
+
+.MainPanel {
+  margin-bottom: 4vh;
+}
+
+.main-content {
+  position: relative;
+  background-color: white;
+  min-height: 89vh;
+  padding-left: 13rem;
+}
+
+.content-padding {
+  padding: 2.5rem;
+}
+
+.content-title-cont {
+  padding-left: 0;
+}
+
+@media (min-width: 961px) {
+  .main-content.minimized-main {
+    padding-left: 3.5rem;
+  }
+
+  .main-content.invisible-main {
+    padding-left: 0rem;
+  }
+
+}
+@media (max-width: 960px) {
+  .main-content {
+    padding-left: 0rem;
+  }
+
+  .content-padding {
+    padding: 1rem;
+  }
+}

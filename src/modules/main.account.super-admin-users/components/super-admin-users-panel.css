@@ -1,0 +1,22 @@
+.SuperAdminPanel{
+}
+
+.user-search-row{
+  margin-top: 1.5rem;
+}
+
+.breadcrumbs{
+    margin-bottom: 20px;
+}
+
+.new-user{
+    margin-top: 1rem;
+    border-bottom: 1px solid rgb(220,220,220);
+    padding-bottom:1rem;
+}
+
+@media (max-width:960px){
+    .SuperAdminPanel{
+        padding:8% 2%
+    }
+}

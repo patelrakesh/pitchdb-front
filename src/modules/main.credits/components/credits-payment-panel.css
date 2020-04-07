@@ -1,0 +1,17 @@
+.CreditsPaymentPanel{
+    padding: 2rem 0;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.credits-bundles-title{
+    text-align: center;
+    margin-bottom:2rem
+}
+
+@media screen and (max-width:600px){
+    .CreditsPaymentPanel{
+      padding-right: 5%;
+      padding-left: 5%;
+  }
+}

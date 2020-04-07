@@ -1,0 +1,27 @@
+.ListAddModal{
+    width: 40rem;
+    height: auto;
+    padding: 0.5rem;
+    background-color: white
+}
+
+.modal-create-list{
+    padding-left: 1rem;
+    margin: 1rem 0
+}
+
+.modal-lists-panel{
+    max-height: 10rem;
+    overflow-y: scroll;
+    margin-bottom: 1.5rem;
+}
+
+.add-text{
+  margin-bottom: 1rem
+}
+
+@media screen and (max-width:500px){
+    .ListAddModal{
+      width: 20rem;
+  }
+}

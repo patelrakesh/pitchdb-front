@@ -1,0 +1,29 @@
+.email-sign-in{
+    margin-bottom: 0.8rem
+}
+
+.connect-button a{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.connect-button a svg{
+    padding-top:0.2em
+}
+
+.email-acc-row{
+    margin-top: 2rem
+}
+
+.current-email, .explain-email{
+    margin-bottom: 1.5rem;
+}
+
+.email-account-entry{
+    margin: 1rem 0;
+}
+
+.invalid-email-warn
+{
+    color:  #FF9900
+}

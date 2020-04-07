@@ -1,0 +1,21 @@
+.search-icon{
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.modality button{
+    width: 95%;
+    height: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.action-row{
+    margin-top:2em;
+}
+
+.param-sub-group{
+    padding:0
+}
+
+/* React datepicker */

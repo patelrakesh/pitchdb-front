@@ -1,0 +1,63 @@
+.StripeElement{
+  padding: 0.6rem 0.6rem;
+  width:100%;
+  border:1px solid #aeaeae !important;
+  border-radius: 0.25rem; 
+  font-size: 0.9rem;
+  min-height: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 0.8rem;
+  outline: none !important;
+  box-shadow:none !important;
+}
+
+.StripeElement:hover,
+.StripeElement:focus,
+ .StripeElement:active {
+  border: 2px solid rgb(0, 26, 183) !important;
+}
+
+.PaymentForm{
+  padding: 2rem 0;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.PaymentForm .InputBox input::placeholder {
+  color: grey;
+}
+
+.payment-label{
+  margin: 1rem 0 0.5rem 0;
+}
+
+.payment-button{
+  margin-top: 2rem;
+}
+
+.PaymentForm input::placeholder {
+  color: #aab7c4;
+}
+
+.PaymentForm input:focus,
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.payment-form-section-label{
+  margin-top: 3rem;
+}
+
+@media screen and (max-width:600px){
+    .PaymentForm{
+      padding-right: 2%;
+      padding-left: 2%;
+  }
+}

@@ -1,0 +1,54 @@
+.RadioGroup {
+  border: solid 2px rgb(105, 105, 105);
+  display: inline-block;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  min-height: 2rem;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+.RadioGroup:hover {
+  border: solid 2px rgb(0, 26, 183);
+}
+
+.RadioGroup input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.RadioGroup label {
+  color: rgb(105, 105, 105);
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.3rem 1.3rem;
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.RadioGroup input[type="radio"]:checked + label {
+  color: white;
+  background: rgb(105, 105, 105);
+}
+
+.RadioGroup .toggle-no-border {
+  border-left: none;
+  border-right: none;
+}
+
+.RadioGroup .middle-toggle {
+  border-left: solid 1px rgb(105, 105, 105);
+}
+
+.RadioGroup .last-toggle {
+  border-left: solid 1px rgb(105, 105, 105);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@media (max-width: 600px) {
+  .RadioGroup label {
+    padding: 0.3rem 0.4rem;
+  }
+}

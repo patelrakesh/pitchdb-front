@@ -1,0 +1,36 @@
+.header-drop-menu{
+  border: 1px solid rgb(192,192,192);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 1rem 1rem 0 1rem;
+  position: absolute;
+  top:3rem;
+  right:0;
+  background-color: white;
+  z-index: 200;
+}
+
+@media (max-width: 960px) {
+  .header-drop-menu{
+      left: -9rem;
+      width: auto
+  }
+}
+
+
+.header-drop-menu .row{
+  text-align: left;
+}
+
+.header-drop-menu .header-menu-item i{
+  color: rgb(105,105,105);
+  font-size: 1rem
+}
+
+.header-menu-item{
+  padding: 0.5rem 0;
+  border-top: 1px solid rgb(192,192,192);
+}
+
+.header-menu-item:focus, .header-menu-item:hover{
+  background-color:rgb(183, 193, 255)
+}

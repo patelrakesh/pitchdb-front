@@ -1,0 +1,31 @@
+.no-team{
+    margin-bottom: 1rem;
+}
+
+.TeamPanel{
+}
+
+.input-invitation{
+    margin-top: 1rem;
+}
+
+.input-invitation{
+    padding-bottom: 3rem;
+    border-bottom: 1px ridge rgb(220,220,220);
+}
+
+.member-row{
+    padding: 2rem 0;
+    border-bottom: 1px ridge rgb(220,220,220);
+}
+
+.breadcrumbs{
+    margin-bottom: 20px;
+}
+
+@media (max-width:960px){
+    .TeamPanel{
+        padding:8% 2%
+    }
+}
+

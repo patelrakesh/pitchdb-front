@@ -1,0 +1,17 @@
+.ContactElements{
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .ContactElements i.action-icon{
+   font-size: 1.1rem;
+ }
+
+ .ContactElements>div{
+  margin-left: 1rem
+ }
+
+ .find-action{
+  margin-bottom: 0.5rem;
+ }

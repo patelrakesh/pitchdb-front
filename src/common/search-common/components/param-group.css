@@ -1,0 +1,31 @@
+.param-group .type-filter{
+  height: 2rem;
+}
+
+.param-group{
+    margin-bottom: 1rem;
+}
+.param-label, .type-filter{
+  text-align: center;
+}
+
+.param-label .DisplayLabel{
+  margin-bottom: 0.5rem
+}
+
+@media (min-width: 961px){
+  .param-group{
+    margin-bottom: 0.8rem;
+}
+  .param-label, .type-filter{
+    text-align: start;
+  }
+
+  .param-label .DisplayLabel{
+    margin-bottom: 0;
+  }
+
+  .param-group div, .param-group .DisplayLabel, .param-group input{
+    margin-bottom: 0;
+  }
+}

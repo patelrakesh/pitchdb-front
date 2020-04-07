@@ -1,0 +1,42 @@
+.StageDetail{
+    border-bottom: 1px ridge rgb(220,220,220);
+    display: flex;
+    flex-flow: column;
+}
+
+.stage-action-icon{
+    color: rgb(0, 26, 183);
+    font-size: 1.5rem;
+}
+
+.stage-detail-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+}
+
+.stage-content-subject{
+    display: flex;
+    flex-flow: row;
+}
+
+.stage-detail-content{
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.subtitle{
+  margin-right: 10px;
+}
+
+.stage-date{
+    padding-left:1rem;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 900px){
+  .StageDetail{
+    padding:1rem 2rem;
+  }
+}

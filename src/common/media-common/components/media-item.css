@@ -1,0 +1,95 @@
+.contact-spec{
+  margin-top: 0.7rem;
+}
+
+.mag-genre{
+  padding-top: 0.16rem;
+  margin-left: 0.5rem;
+}
+
+.MediaItem .container{
+  display: grid;
+  grid-template-areas: "company contact"
+                        "actions actions";
+  /* Originnaly was 3fr 2fr  */
+  grid-template-columns: 1fr 4fr;
+  /* Remove this line? */
+  /* grid-template-rows: 80% 20%; */
+  column-gap: 2em;
+
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.MediaItem .contacts{
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+}
+
+ .MediaItem .contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+ .MediaItem .company{
+  grid-area: company;
+  display: flex;
+  flex-direction: column;
+}
+
+.MediaItem .company-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.MediaItem .logo{
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+ .MediaItem .tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+ .MediaItem .chip{
+  padding-right: 50px;
+}
+
+.MediaItem .chip :hover{
+  cursor: default;
+}
+
+ .MediaItem .field{
+  display: flex;
+  flex-direction: row;
+}
+
+ .MediaItem .field .label{
+  padding-right: 5px;
+}
+
+ .MediaItem .actions{
+  grid-area: actions;
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ .MediaItem .actions .action-button{
+  width: fit-content;
+}
+
+.media-item-title{
+  display: flex;
+  width: 100%;
+}
+
+

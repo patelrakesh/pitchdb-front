@@ -1,0 +1,24 @@
+.CreditsCounterItem{
+    font-size: 1.3rem;
+}
+
+.CreditsCounterItem span span{
+    color: white
+}
+
+.badge-plenty span span{
+    background-color: #4CAF50
+}
+
+.badge-few span span{
+    background-color: #FBC02D
+}
+
+.badge-none span span{
+    background-color: red
+}
+
+.CreditsCounterItem i{
+    color: black;
+    background-color: white
+}

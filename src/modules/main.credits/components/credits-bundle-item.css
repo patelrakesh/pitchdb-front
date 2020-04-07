@@ -1,0 +1,17 @@
+.CreditsBundleItem{
+  width: 12.5rem;
+  margin-bottom: 1rem;
+  border-color: rgb(0, 26, 183);
+}
+
+.CreditsBundleItem .card-header{
+  color: rgb(0, 26, 183);
+}
+
+.CreditsBundleItem .card-title{
+    padding-top: 2rem;    
+}
+
+.CreditsBundleItem .card-text{
+    padding-bottom: 2rem
+}

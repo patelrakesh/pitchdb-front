@@ -1,0 +1,41 @@
+.ExtensionPrompt {
+  width:  calc(100% + 30px); 
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  z-index: 101;
+  min-height: 3rem;
+  margin-left: -15px;
+  padding-left: 15rem 
+}
+
+.ExtensionPrompt a{
+  text-decoration: none;
+}
+
+.extension-button,
+.dismiss-button {
+  border: none;
+  outline: none;
+  display: flex;
+  margin-left: 0.5rem;
+  border: 1px solid #8a6d3b;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  height: 2.4rem;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.extension-button img{
+  margin-right: 0.4rem
+}
+
+.extension-button:hover,
+.dismiss-button:hover {
+  opacity: 0.5;
+}

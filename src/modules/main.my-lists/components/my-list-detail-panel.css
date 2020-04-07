@@ -1,0 +1,60 @@
+#list-header{
+  padding-top:1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.5rem;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 3px ridge rgb(220,220,220);
+  margin-bottom: 1rem;
+}
+
+.my-podcasts-action-col{
+    margin-bottom: 2rem;
+}
+
+.my-podcasts-action-col button{
+  width: 100%
+}
+
+.item-list-toggle{
+  background-color: white;
+  color: rgb(0, 26, 183);
+  border: 1px solid rgb(0, 26, 183);
+  width: 90%;
+}
+
+.item-list-toggle:hover, .item-list-toggle:focus, .item-list-toggle.selected-type, .item-list-toggle.selected-type:focus, .item-list-toggle.selected-type:hover{
+    background-color: rgb(0, 26, 183);
+    color: white
+}
+
+.list-actions{
+    padding-bottom: 0.5rem;
+}
+
+.lists-back-row{
+    margin-bottom: 1rem;
+}
+
+.back-button{
+  margin-bottom: 1rem;
+}
+
+.back-but-row{
+  border-top: 1px solid rgb(192,192,192);
+  padding-top: 1rem;
+}
+
+.ListDetail .breadcrumb-icon{
+  margin-right: 5px;
+}
+
+.list-title-info{
+  display: flexbox;
+  flex-direction: column;
+}
+
+.ListDetail .breadcrumbs{
+  width: 700px;
+}

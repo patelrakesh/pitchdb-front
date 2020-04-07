@@ -1,0 +1,9 @@
+.LocalBusinessDetail{
+    padding: 2% 10%;
+}
+
+@media (max-width:960px){
+    .LocalBusinessDetail{
+        padding: 2% 2%;
+    }
+}

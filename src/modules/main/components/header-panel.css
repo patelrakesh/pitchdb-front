@@ -1,0 +1,58 @@
+.HeaderPanel{
+  border-bottom: 1px solid rgb(192,192,192);
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 200;
+   background-color: white;
+}
+
+.banner{
+  height: 100%;
+}
+
+.banner img{
+    width: auto;
+    height: 1.5rem;
+}
+
+.user-data{
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    border-left: 1px solid rgb(192,192,192);
+    min-height: 3rem;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.credits-header{
+    min-height: 3rem;
+}
+
+.user-data:focus, .user-data:hover{
+    background-color:rgb(183, 193, 255)
+}
+
+.user-data .row, .credits-header .row{
+    min-height: 3rem;
+}
+
+.user-data i {
+    color:rgb(0, 26, 183);
+    font-size: 2rem
+}
+
+.dropdown-icon i{
+    color: black;
+    font-size: 1rem
+}
+
+.user-data .menu-dropdown-cont i{
+  color: grey;
+  font-size: 1rem;
+}

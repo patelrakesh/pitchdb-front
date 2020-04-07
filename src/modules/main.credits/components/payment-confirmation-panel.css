@@ -1,0 +1,16 @@
+.PaymentConfirmationPanel{
+  padding: 2rem 0;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.order-success-button{
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width:600px){
+  .PaymentConfirmationPanel{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+}

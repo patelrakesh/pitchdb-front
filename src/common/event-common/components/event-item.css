@@ -1,0 +1,97 @@
+.EventItem.search-item {
+  min-height: 10rem;
+}
+
+.ev-tags {
+  margin-left: 2px;
+}
+
+.EventItem .container {
+  display: grid;
+  grid-template-areas:
+    "company contact"
+    "actions actions";
+  grid-template-columns: 1fr 2fr;
+  /* Remove this line? */
+  /* grid-template-rows: 80% 20%; */
+  column-gap: 2em;
+  row-gap: 2em;
+
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.EventItem .contacts {
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+}
+
+.EventItem .contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.EventItem .company {
+  grid-area: company;
+  display: flex;
+  flex-direction: column;
+}
+
+.EventItem .company-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.EventItem .logo {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.EventItem .tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.EventItem .chip {
+  padding-right: 5px;
+}
+
+.EventItem .chip :hover {
+  cursor: default;
+}
+
+.EventItem .field {
+  display: flex;
+  flex-direction: row;
+}
+
+.EventItem .field-tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.EventItem .field .label {
+  padding-right: 5px;
+}
+
+.EventItem .actions {
+  grid-area: actions;
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.EventItem .actions .action-button {
+  width: fit-content;
+}
+
+.EventItem .display-title {
+  width: 100%;
+}

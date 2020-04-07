@@ -1,0 +1,41 @@
+.social{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.banner-image{
+  margin-bottom: 1.5rem;
+}
+
+.banner-image img{
+  max-width: 18rem;
+}
+
+.regular-auth-section{
+    border-top: 1px solid rgb(192,192,192);
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.regular-auth-button{
+    margin: 1rem;
+}
+
+.credentials-input input{
+  width: 80%;
+}
+
+.forgot-col{
+  text-align: left;
+  margin: 0 10%;
+}
+
+@media screen and (max-width: 600px){
+  .banner-image img{
+    max-width: 15rem;
+  }
+
+  .Authentication{
+    width:18rem;
+  }
+}

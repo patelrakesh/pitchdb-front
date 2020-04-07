@@ -1,0 +1,9 @@
+.EventDetail{
+    padding: 2% 10%;
+}
+
+@media (max-width:960px){
+    .EventDetail{
+        padding: 2% 2%;
+    }
+}

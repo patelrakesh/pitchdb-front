@@ -1,0 +1,17 @@
+.episode-content{
+    min-height: 6rem
+}
+
+@media (max-width: 960px){
+    .episode-item-desc{
+        padding-left: 1.9rem
+    }
+}
+
+.play-item-col{
+  padding: 1rem 30px
+}
+
+.EpisodeItem .icon-play-podcast{
+  margin-right: 1rem;
+}

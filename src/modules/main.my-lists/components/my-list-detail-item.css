@@ -1,0 +1,34 @@
+.MyListDetailItem{
+    padding:1rem 0;
+    border-bottom: 1px ridge rgb(220,220,220);
+    min-height: 6rem;
+}
+
+.label-list-name, .label-list-amount{
+    padding-bottom: 1em
+}
+
+.list-detail-action{
+    text-align: center
+}
+
+.MyListDetailItem .DisplayLabel, .MyListDetailItem .InputBox{
+  width: 100%
+}
+
+.MyListDetailItem .list-name .DisplayLabel{
+  height: 2.4rem;
+  margin-bottom: 0.8rem;
+  padding: 0.2rem 0;
+}
+
+.MyListDetailItem .list-counts{
+    width: 200px;
+  }
+
+@media (max-width: 960px) {
+    .items-amount-list
+    {
+        margin: 1rem 0
+    }
+ }

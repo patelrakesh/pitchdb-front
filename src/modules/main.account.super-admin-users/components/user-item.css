@@ -1,0 +1,33 @@
+.UserItem{
+    margin-top: 1rem;
+    border-bottom: 1px solid rgb(220,220,220);
+    min-height: 12rem
+}
+
+.admin-user-action{
+    margin-bottom: 1rem;
+}
+
+.disabled{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 35px;
+    display: flex;
+    background-size: 20px;
+    width: 150px;
+    font-weight: bold;
+    background-color: hsl(0, 50%, 50%);
+    color: ivory;
+    justify-content: center;
+}
+
+.privileges{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .super-user-info{
+        margin-bottom: 0.3rem
+    }
+}

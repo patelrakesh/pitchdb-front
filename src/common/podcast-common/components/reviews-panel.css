@@ -1,0 +1,11 @@
+.ReviewsPanel{
+    background-color: white;
+    width: 40rem;
+    padding: 3rem
+}
+
+@media screen and (max-width:700px){
+  .ReviewsPanel{
+    width: 20rem;
+}
+}

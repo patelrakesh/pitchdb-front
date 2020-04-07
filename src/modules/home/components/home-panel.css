@@ -1,0 +1,22 @@
+.HomePanel{
+  margin-top: 4rem;
+  text-align: center;
+  width:25rem;
+}
+
+.HomePanel img{
+  height: auto;
+}
+
+.buttons-cont{
+  padding: 1.5rem 0;
+  border: 1px solid rgb(192,192,192);
+  background-color: white;
+  width:fit-content;
+}
+
+@media screen and (max-width: 600px){
+  .HomePanel{
+    width:18rem;
+  }
+}

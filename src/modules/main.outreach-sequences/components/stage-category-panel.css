@@ -1,0 +1,33 @@
+.StageCategoryPanel{
+    height: 100%;
+    padding: 0;
+}
+
+.StageCategoryPanel {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+.stages-cards{
+    padding: 0 1rem
+}
+
+.email-compose-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 500;
+}
+
+.add-more-sequences{
+    font-weight: 500;
+    margin:1rem
+}

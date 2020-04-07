@@ -1,0 +1,35 @@
+.DashboardPanel{
+  text-align: center;
+}
+
+.dashboard-but{
+  margin-bottom: 1.5rem;
+}
+
+.explain-dashboard{
+  margin-bottom: 1rem;
+}
+
+.divider{
+  margin-bottom: 20px !important;
+}
+
+.DashboardPanel .icons-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.DashboardPanel .item-container{
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DashboardPanel .text-items{
+  width: 150px;
+}
+

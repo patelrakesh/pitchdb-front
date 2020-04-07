@@ -1,0 +1,89 @@
+.sequence-data{
+    margin-top: 2rem
+}
+
+.title{
+  margin-top: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sequence{
+  display: grid;
+  grid-template-areas: "sequence divider notes";
+  grid-template-columns: 59% 1% 40%;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+
+.sequence-detail{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: auto;
+  grid-area: sequence;
+}
+
+.notes{
+  grid-area: notes;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider{
+  grid-area: divider;
+  width: 1px; /* Line width */
+  background-color: rgba(0, 0, 0, 0.123); /* Line color */
+  height: 100%;
+}
+
+.card {
+  minWidth: 275;
+  margin-bottom: 12px;
+}
+
+.card-content{
+  overflow: auto;
+}
+
+.bullet {
+  display: 'inline-block';
+  margin: '0 2px';
+  transform: 'scale(0.8)';
+}
+
+.card-title {
+  fontSize: 14;
+}
+
+.pos {
+  marginBottom: 12
+}
+
+.actions{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dates{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.add-icon{
+  align-self: flex-end;
+}
+
+.add-icon span{
+  height: 56px;
+}
+
+.breadcrumbs{
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.breadcrumb-icon{
+  margin-right: 5px;
+}

@@ -1,0 +1,18 @@
+.stage-line-chart-container{
+  border: 1px solid rgb(220,220,220);
+  border-radius: 2%
+}
+
+.date-range-header{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.pie-start{
+  margin-top: 2rem;
+}
+
+.divider{
+  margin-bottom: 30px !important;
+}

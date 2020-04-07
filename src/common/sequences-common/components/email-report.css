@@ -1,0 +1,21 @@
+.EmailReport {
+  padding: 1rem;
+  background-color: white;
+  width: 40rem;
+}
+
+.report-explanation{
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .EmailReport {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .EmailReport {
+    width: 20rem;
+  }
+}

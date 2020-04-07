@@ -1,0 +1,8 @@
+.ConfirmCancel{
+  font-size: 1rem;
+  margin-left:1rem;
+}
+
+.ConfirmCancel .confirm-icon{
+  margin-right: 0.5rem;
+}

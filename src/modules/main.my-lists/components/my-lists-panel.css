@@ -1,0 +1,26 @@
+ @media (min-width: 961px) {
+  .MyListsPanel.content-padding{
+    /* padding-left: 15%;
+    padding-right: 15%; */
+  }
+}
+
+.new-list{
+    margin-bottom: 1rem
+}
+
+.new-list .InputBox{
+  width: 100%;
+}
+
+.create-list{
+    margin-bottom: 1rem
+}
+
+.list-title-bar{
+    margin-bottom: 1rem
+}
+
+.divider{
+  margin-bottom: 30px !important;
+}

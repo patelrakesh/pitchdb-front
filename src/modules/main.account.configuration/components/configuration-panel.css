@@ -1,0 +1,23 @@
+.ConfigurationPanel{
+    
+}
+
+.conf-item{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px ridge rgb(220,220,220);
+}
+
+.breadcrumbs{
+    margin-bottom: 20px;
+}
+
+.breadcrumb-icon{
+    margin-right: 5px;
+}
+
+@media (max-width:960px){
+    .ConfigurationPanel{
+        padding:8% 2%
+    }
+}

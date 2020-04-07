@@ -1,0 +1,75 @@
+.BusinessItem .container{
+  display: grid;
+  grid-template-areas: "company contact"
+                        "actions actions";
+  grid-template-columns: 2fr 2fr;
+  /* Remove this line? */
+  /* grid-template-rows: 80% 20%; */
+  column-gap: 2em;
+
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.BusinessItem .contacts{
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+}
+
+.BusinessItem .contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.BusinessItem .company{
+  grid-area: company;
+  display: flex;
+  flex-direction: column;
+}
+
+.BusinessItem .company-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 5px;
+}
+
+.BusinessItem .tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.BusinessItem .chip{
+  padding-right: 5px;
+}
+
+.BusinessItem .chip :hover{
+  cursor: default;
+}
+
+.BusinessItem .field{
+  display: flex;
+  flex-direction: row;
+}
+
+.BusinessItem .field .label{
+  padding-right: 5px;
+}
+
+.BusinessItem .actions{
+  grid-area: actions;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.BusinessItem .actions .action-button{
+  width: fit-content;
+}
+
+.BusinessItem .logo{
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}

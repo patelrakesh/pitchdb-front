@@ -1,0 +1,40 @@
+
+  .react-autosuggest__input {
+    padding: 0.5em;
+    width:100%
+  }
+  
+  .react-autosuggest__input--focused {
+    border-color: rgba(0,0,0,0.35);
+    outline-color: rgba(0,0,0,0.35);
+  }
+  
+  .react-autosuggest__input--open {
+  }
+  
+  .react-autosuggest__suggestions-container {
+    
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    position:absolute;
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.35);
+  }
+  
+  .react-autosuggest__suggestions-list{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .react-autosuggest__suggestion {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 0.5em;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: rgba(176,224,230,0.4)
+  }
+  

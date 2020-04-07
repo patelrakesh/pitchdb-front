@@ -1,0 +1,16 @@
+.action-icon{
+  transition: color .15s ease-in-out,background-color .15s ease-in-out;
+}
+
+.action-icon.standard-action{
+    font-size: 1.3rem;
+    color: rgb(0, 26, 183);
+}
+
+.icon-negative .action-icon{
+  color: #CC0000;
+}
+
+.action-icon.standard-action:hover, .action-icon.standard-action:focus{
+  opacity:0.7;
+}

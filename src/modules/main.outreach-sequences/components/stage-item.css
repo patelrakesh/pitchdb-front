@@ -1,0 +1,46 @@
+.StageItem{
+    background-color: white;
+    width:100%;
+    padding: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 960px) {
+    .StageItem{
+        padding: 0.5rem 0;
+    }
+ }
+
+.StageItem:hover, .StageItem:focus{
+    background-color: rgb(183, 193, 255)
+}
+
+.stage-title{
+    min-height: 3rem;
+    margin-bottom:1rem;
+
+}
+
+.stage-icon{
+    color:rgb(0, 26, 183);
+    font-size: 1.5rem
+}
+
+.stage-icon div{
+    float: right
+}
+
+.remove-icon-div{
+    color: rgb(169,169,169);
+}
+
+.remove-span:hover, .remove-span:focus{
+    color: black
+}
+
+.stage-item-date{
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: flex-end;
+}

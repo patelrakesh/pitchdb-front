@@ -1,0 +1,16 @@
+.social-sign-buttons{
+    color: white
+}
+
+.social-sign-buttons .btn{
+    max-width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.explain-sign, .current-sign{
+    margin-bottom: 1.5rem;
+}
+
+.sign-connect{
+  margin-bottom: 0.8rem
+}

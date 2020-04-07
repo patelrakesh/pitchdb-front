@@ -1,0 +1,13 @@
+.podcast-content{
+    min-height: 7.5rem
+}
+
+.rating-section{
+    margin: 0.8rem 0
+}
+
+@media (max-width: 960px){
+    .podcast-item-desc{
+        padding-left: 1.9rem
+    }
+}

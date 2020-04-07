@@ -1,0 +1,14 @@
+.activity-item:first-child{
+  margin-top: 0.4rem;
+}
+
+.activity-item{
+  margin-bottom: 0.4rem;
+}
+
+.loading-activity{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

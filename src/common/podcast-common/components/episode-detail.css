@@ -1,0 +1,23 @@
+.EpisodeDetail{
+    min-height: 7rem;
+    padding:1rem 0;
+    border-bottom: 1px ridge rgb(220,220,220);
+}
+
+.episode-tags-row{
+    padding-left: 1rem
+}
+
+.episode-desc-cont{
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}
+
+.EpisodeDetail .action-icon{
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 960px) {
+  .EpisodeDetail{}
+}

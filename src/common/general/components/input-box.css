@@ -1,0 +1,44 @@
+.InputBox input,
+.InputBox textarea {
+  padding: 0.2rem 0.6rem;
+  width: 100%;
+  border: 1px solid #aeaeae;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.InputBox input {
+  min-height: 2.4rem;
+  height: 2.4rem;
+}
+
+.InputBox input:hover,
+.InputBox textarea:hover,
+.InputBox input:focus,
+.InputBox textarea:focus,
+.InputBox input:active,
+.InputBox textarea:active {
+  border: 2px solid rgb(0, 26, 183);
+}
+
+.InputBox input::placeholder {
+  color: grey;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.keywords-input {
+  margin-top: 1.3rem;
+}
+
+@media (max-width: 960px) {
+  .keywords-input {
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+.NavigationItem-anchor {
+  text-decoration: none;
+  color: black;
+}
+
+.NavigationItem-anchor:hover,
+.NavigationItem-anchor:focus {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.NavigationItem {
+  padding: 1.2rem 0;
+  height: 3.5rem;
+}
+
+.NavigationItem.nav-active {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.navigation-icon {
+  font-size: 1.3rem;
+}
+
+.navigation-icon .fas {
+  max-width: 21px;
+  height: auto;
+}

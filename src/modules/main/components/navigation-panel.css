@@ -1,0 +1,65 @@
+.NavigationPanel{
+    position: fixed;
+    z-index: 100;
+    width: 13rem;
+    min-height:100vh; 
+   padding:  3.2em 1rem;
+   font-size: 1rem;
+   font-weight: bold;
+   top:0;
+   left:0;
+   background-color: white;
+   border-right: 1px solid rgb(192,192,192);
+   overflow-y: scroll;
+   max-height: 100%;
+   scrollbar-width: none;
+
+}
+
+.NavigationPanel::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+@media (min-width: 961px) {
+    .menu-expander{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+ }
+
+@media (max-width: 960px) {
+    .NavigationPanel{
+        min-height:3rem;
+        padding: 0.5rem;
+        z-index: 300;
+    }
+    .NavigationPanel.maximized-navigation{
+        padding-right:1rem;
+    }
+    
+    .NavigationPanel.invisible-navigation{
+        display: none
+    }
+    
+    .span-minimize:hover, .span-minimize:focus{
+        opacity: 0.5;
+    }
+ }
+
+ .NavigationPanel.maximized-navigation{
+  padding-right:1rem;
+}
+
+.NavigationPanel.minimized-navigation{
+  width: 3.5rem;
+}
+
+.NavigationPanel.invisible-navigation{
+    display: none
+}
+
+.span-minimize:hover, .span-minimize:focus{
+    opacity: 0.5;
+}
+

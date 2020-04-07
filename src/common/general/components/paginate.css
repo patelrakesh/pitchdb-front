@@ -1,0 +1,58 @@
+ul.pagination{
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+ul.pagination li{
+  display: inline-block
+}
+
+ul.pagination a{
+  border-top: 1px solid rgb(0, 26, 183);
+  border-bottom: 1px solid rgb(0, 26, 183);
+  outline: 0;
+  color: rgb(0, 26, 183);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  flex:1;
+  display: block;
+  text-decoration: inherit;
+  cursor: auto;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+ul.pagination a:hover, ul.pagination a:focus, ul.pagination a:visited, ul.pagination .pag-active a {
+  background-color: rgb(0, 26, 183);;
+  color: white;
+}
+
+ul.pagination .previous a{
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+ul.pagination .next a{
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+ul.pagination .previous a, ul.pagination .next a, ul.pagination .next a:visited, ul.pagination .next .pag-active a{
+  background-color: white;
+  border: 1px solid rgb(0, 26, 183);
+  color: rgb(0, 26, 183);
+}
+
+ul.pagination .previous a:hover, ul.pagination .next a:hover{
+  background-color: rgb(0, 26, 183);
+  color: white;
+}
+
+ul.pagination .pag-disabled a{
+  opacity: 0.5;
+  background-color: rgb(0, 26, 183);
+  color: white;
+}
+

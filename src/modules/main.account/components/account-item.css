@@ -1,0 +1,19 @@
+
+.AccountItem{
+    border-bottom: 1px solid rgb(192,192,192);
+    min-height: 5rem;
+    font-weight: bold;
+    color: rgb(105,105,105);
+}
+
+.AccountItem:focus, .AccountItem:hover{
+    background-color:rgb(183, 193, 255)
+}
+
+.AccountItem.AccountItem-selected{
+    background-color:rgb(183, 193, 255);
+}
+
+.account-menu-item-selected{
+    background-color:rgb(183, 193, 255)
+}

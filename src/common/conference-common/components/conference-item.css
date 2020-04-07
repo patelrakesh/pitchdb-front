@@ -1,0 +1,92 @@
+.contact-spec{
+    margin-top: 0.7rem;
+  }
+  
+  .mag-genre{
+    padding-top: 0.16rem;
+  }
+  
+  .ConferenceItem .container{
+    display: grid;
+    grid-template-areas: "company contact"
+                          "actions actions";
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 80% 20%;
+    column-gap: 2em;
+  
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  .ConferenceItem .contacts{
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .ConferenceItem .contact-info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .ConferenceItem .company{
+    grid-area: company;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ConferenceItem .company-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+  }
+  
+  .ConferenceItem .logo{
+    padding-right: 20px;
+  }
+  
+   .ConferenceItem .tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: default;
+  }
+  
+   .ConferenceItem .chip{
+    padding-right: 50px;
+  }
+  
+  .ConferenceItem .chip :hover{
+    cursor: default;
+  }
+  
+   .ConferenceItem .field{
+    display: flex;
+    flex-direction: row;
+  }
+  
+   .ConferenceItem .field .label{
+    padding-right: 5px;
+  }
+  
+   .ConferenceItem .actions{
+    grid-area: actions;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+   .ConferenceItem .actions .action-button{
+    width: fit-content;
+  }
+
+  .ConferenceItem .description{
+    width: 870px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .ConferenceItem .eventInfo{
+    display: flexbox;
+    flex-direction: column;
+  }

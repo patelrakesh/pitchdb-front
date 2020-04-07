@@ -1,0 +1,25 @@
+image: node:8.11.4
+
+stages:
+  - deploy
+
+deploy_prod:
+  stage: deploy
+  script:
+    - echo "====== Deploy to production server ======"
+    # Add target server`s secret key
+    - mkdir ~/.ssh
+    - echo $TARGET_SERVER_SECRET_KEY_BASE64 | base64 -d > ~/.ssh/id_rsa
+    - echo 
+    - chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
+    #- echo "Test ssh connection"
+    #- ssh -o StrictHostKeyChecking=no -T "$TARGET_SERVER_USER@$TARGET_SERVER_HOST"
+    # Deploy
+    - npm install -g react-scripts
+    - npm install
+    - CI=false react-scripts --max_old_space_size=4096 build
+    - scp -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -prq build/* "$TARGET_SERVER_USER@$TARGET_SERVER_HOST:$TARGET_SERVER_DIRECTORY/"
+  environment:
+    name: deploying
+  only:
+  - master
